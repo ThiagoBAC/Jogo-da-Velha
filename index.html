@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div id="jogo">
+        <div class="linha1"> 
+            <select id="casa1">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+            <select id="casa2">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+            <select id="casa3">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+        </div>
+
+        <div class="linha2"> 
+            <select id="casa4">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+            <select id="casa5">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+            <select id="casa6">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+        </div>
+        <div class="linha3"> 
+            <select id="casa7">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+            <select id="casa8">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+            <select id="casa9">
+                <option value=""></option>
+                <option value="x" class="jogadorX">X</option>
+                <option value="o" class="jogadorO">O</option>
+                
+            </select>
+        </div>
+
+      
+    </div>
+
+    <br>
+
+    <input type="button" value="Resultado" onclick="exibirResultado()">
+    <button id="reload">Jogar Novamente</button>
+
+    <div id="resultado" >
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

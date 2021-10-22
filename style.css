@@ -1,0 +1,47 @@
+
+#jogo {
+    width: 600px;
+    height: 600px;
+    
+}
+
+.linha1{
+    height: 200px;  
+        
+}
+
+.linha2{
+    height: 200px;    
+    
+}
+
+.linha3{
+    height: 200px;
+       
+}
+ 
+#casa1, #casa2, #casa3,
+#casa4, #casa5, #casa6,
+#casa7, #casa8, #casa9
+{
+    width:200px;
+    height:100%;
+    float:left; 
+    font-size: 60px;
+    text-align: center;
+    border: solid;
+    
+   
+}
+
+#resultado {
+    color: blue;
+    width: 585px;
+    height: auto;
+    border: solid;
+    text-align: center;
+    margin-top: 18px;
+    font-size: larger;
+    padding: 8px;
+    
+}
